@@ -55,5 +55,21 @@
 }
 
 body {
-    background-color: lawngreen;
+    background-color: whitesmoke;
+}
+
+#finbildloda {
+    width: 1000px;
+    height: 500px;
+    background-color: forestgreen;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#bildloda {
+    width: 900px;
+    height: 400px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 50px;
 }
