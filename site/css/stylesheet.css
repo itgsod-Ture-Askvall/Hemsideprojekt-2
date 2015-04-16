@@ -1,0 +1,59 @@
+#header {
+
+    width: 80%;
+    height: 100px%;
+    top: 0px;
+    background-color: forestgreen;
+    margin-left: 150px;
+    margin-right: 240px;
+
+}
+#headerpicture {
+    width: 226px;
+    height: 237px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid black;
+    background-image: url("../img/logo.jpg");
+}
+
+#meny_under_header {
+    background-color: forestgreen;
+    height: 80px;
+    width: 80%;
+    margin-left:150px;
+}
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu ul > li {
+    position: relative;
+    float: left;
+    width: 12.6%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2px;
+
+}
+
+#menu ul > li > a {
+    background-color: forestgreen;
+    font-size: 100%;
+    font-style: oblique;
+    color: black;
+    line-height: 100px;
+    display: block;
+    padding: 4px 4px 4px 4px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: underline;
+    border: 3px solid black;
+}
+
+body {
+    background-color: lawngreen;
+}
