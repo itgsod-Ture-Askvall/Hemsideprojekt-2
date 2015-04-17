@@ -1,75 +1,66 @@
 #header {
-
     width: 80%;
-    height: 100px%;
-    top: 0px;
-    background-color: forestgreen;
-    margin-left: 150px;
-    margin-right: 240px;
-
+    height: 15em;
+    background-color: #0f8433;
+    margin-left: 10%;
+    min-width: 950px;
 }
-#headerpicture {
-    width: 226px;
-    height: 237px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 2px solid black;
-    background-image: url("../img/logo.jpg");
-}
-
-#meny_under_header {
-    background-color: forestgreen;
-    height: 80px;
-    width: 80%;
-    margin-left:150px;
-}
-#menu ul {
+#meny ul {
     list-style: none;
     margin: 0;
     padding: 0;
-
+    background-color: #0f8433;
+    opacity: 0.7;
+    height: 80px;
+    width: 80%;
+    margin-left:10%;
+    min-width: 950px;
 }
 
-#menu ul > li {
+#meny ul > li {
     position: relative;
     float: left;
     width: 12.6%;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 2px;
-
 }
 
-#menu ul > li > a {
-    background-color: forestgreen;
-    font-size: 100%;
-    font-style: oblique;
+#meny ul > li > a {
+    font-size: 150%;
+    font-family: Gill Sans;
+    text-transform: uppercase;
     color: black;
-    line-height: 100px;
     display: block;
-    padding: 4px 4px 4px 4px;
-    border-radius: 10px;
     text-align: center;
-    text-decoration: underline;
-    border: 3px solid black;
+    text-decoration: none;
+    opacity: 1;
+    padding-top: 10px;
 }
-
+#meny ul> li>a:hover {
+    opacity: 1.0;
+    background-color: red;
+}
 body {
     background-color: whitesmoke;
 }
 
 #finbildloda {
-    width: 1000px;
+    width: 50%;
     height: 500px;
-    background-color: forestgreen;
-    margin-left: 200px;
-    margin-top: 50px;
+    background-color: #0f8433;
+    margin-left: 24%;
+    min-width: 700px;
 }
 
 #bildloda {
-    width: 900px;
-    height: 400px;
+    width: 85%;
+    height: 90%;
     background-color: black;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top:50px;
+}
+
+#headerpicture {
+    opacity: 1.0;
 }
