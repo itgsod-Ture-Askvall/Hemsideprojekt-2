@@ -47,7 +47,7 @@ body {
 
 #finbildloda {
     width: 50%;
-    height: 500px;
+    height: 400px;
     background-color: #0f8433;
     margin-left: 24%;
     min-width: 700px;
@@ -56,11 +56,27 @@ body {
 #bildloda {
     width: 85%;
     height: 90%;
-    background-color: black;
     margin-left: 50px;
     margin-top:50px;
+    background-image: url("../img/Lepquebild.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
+#bildloda img {
+    max-width: 100%
+}
 #headerpicture {
     opacity: 1.0;
 }
+
+
+.button_pressed {
+    opacity: 1.0;
+    background-color: red;
+}
+
+#Alla_program {
+
+}
+
+
