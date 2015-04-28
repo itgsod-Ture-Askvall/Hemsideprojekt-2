@@ -1,45 +1,19 @@
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #0f8433;
+    overflow: hidden;
+    border-style: solid;
+    border-color: darkorange;
+    border-width: thick;
+}
 #header {
-    width: 80%;
-    height: 15em;
-    background-color: #0f8433;
-    margin-left: 10%;
-    min-width: 950px;
-}
-#meny ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: #0f8433;
-    opacity: 0.7;
-    height: 80px;
-    width: 80%;
-    margin-left:10%;
-    min-width: 950px;
-}
-
-#meny ul > li {
-    position: relative;
-    float: left;
-    width: 12.6%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 2px;
-}
-
-#meny ul > li > a {
-    font-size: 150%;
-    font-family: Gill Sans;
-    text-transform: uppercase;
-    color: black;
-    display: block;
+    padding: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     text-align: center;
-    text-decoration: none;
-    opacity: 1;
-    padding-top: 10px;
-}
-#meny ul> li>a:hover {
-    opacity: 1.0;
-    background-color: red;
+    background-color: #0f8433;
 }
 body {
     background-color: whitesmoke;
@@ -50,9 +24,7 @@ body {
     height: 400px;
     background-color: #0f8433;
     margin-left: 24%;
-    min-width: 700px;
 }
-
 #bildloda {
     width: 85%;
     height: 90%;
@@ -63,20 +35,56 @@ body {
     background-position: center;
 }
 #bildloda img {
-    max-width: 100%
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 40%;
+    max-width: 95%;
 }
-#headerpicture {
-    opacity: 1.0;
+
+header {
+    padding: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+    background-color: black;
+}
+a {
+    font-size: 0.7em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.headlink {
+    color:white;
+    margin: 5px;
+    padding: 5px;
+
+}
+a:hover {
+    color: grey;
+}
+a:active {
+    color: blue;
+}
+ol li {
+    font-size: 80%;
+    font-weight: bold;
+}
+#headimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 40%;
+    max-width: 95%;
+    background-color: #0f8433;
 }
 
 
-.button_pressed {
-    opacity: 1.0;
-    background-color: red;
+.headlink_pressed {
+    color: grey;
 }
 
-#Alla_program {
-
-}
 
 
