@@ -111,7 +111,7 @@ ol li {
     border-color: darkorange;
     border-width: thick;
     float: left;
-    margin-right: 43px;
+
     min-width: 350px;
 }
 
@@ -222,7 +222,7 @@ ol li {
 
 #nyhet {
     max-width: 350px;
-    max-height: 340.40px;
+    height: 414px;
     margin-top: 50px;
     margin-right: 5%;
     padding: 5px;
@@ -237,16 +237,33 @@ ol li {
 #lappmedinfo {
     max-width: 350px;
     min-width: 350px;
+    height: 284.288px;
     margin-top:50px ;
     margin-right: 5%;
     padding: 5px;
     background-color:#0f8433;
-    overflow: hidden;
+    overflow: scroll;
     border-style: solid;
     border-color: darkorange;
     border-width: thick;
     float: right;
 
+}
+
+#eventrubrik {
+    max-width: 700px;
+    margin:  auto;
+    margin-top: 50px;
+    padding: 5px;
+    background-color: #0f8433;
+    overflow: hidden;
+    border-style: solid;
+    border-color: darkorange;
+    border-width: thick;
+}
+
+.personalbilder{
+    margin-left:35%;
 }
 @media screen and (max-width: 700px) {
     #idrottsloda {
