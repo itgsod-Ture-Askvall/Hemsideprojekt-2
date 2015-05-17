@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <title>Le Peque!</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <style>
+        #map-canvas {
+            width: 500px;
+            height: 400px;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapCanvas = document.getElementById('map-canvas');
+            var mapOptions = {
+                center: new google.maps.LatLng(59.282127, 18.113469),
+                zoom: 18,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </head>
 <body>
 
@@ -60,6 +79,8 @@
 
 
 </div>
+<div id="map-canvas"></div>
+
 
 
 
