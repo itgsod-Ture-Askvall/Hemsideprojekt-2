@@ -278,7 +278,8 @@ ol li {
 }
 
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 700px)  {
     #idrottsloda {
         max-width: 700px;
         margin-top: 50px;
@@ -332,3 +333,57 @@ h3 {
 
 
 
+@media screen and (max-width: 1325px) {
+    #programloda1 {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+
+    }
+
+    #programloda2 {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+
+    }
+
+    #programloda3 {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+
+    }
+
+ #idrottsloda {
+     margin-top: 50px;
+     margin-left: auto;
+     margin-right: auto;
+
+     float: none;
+ }
+    #loda2 {
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+
+      }
+    #loda3 {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+
+    }
+    #loda4 {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+
+    }
+
+ .ansiktsloda {
+     margin-right: auto;
+     margin-left: auto;
+     float: none;
+ }
+}
