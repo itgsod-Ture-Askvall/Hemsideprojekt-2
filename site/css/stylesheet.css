@@ -30,7 +30,7 @@ header {
 }
 
 a {
-    font-size: 0.7em;
+    font-size: 1em;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -95,7 +95,7 @@ ol li {
 }
 
 #loda2 {
-    max-width: 350px;
+    max-width: 500px;
     margin-left: 5%;
     margin-top: 50px;
     padding: 5px;
@@ -104,11 +104,13 @@ ol li {
     border-style: solid;
     border-color: darkorange;
     border-width: thick;
-    float: left;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #loda3 {
-    max-width: 350px;
+    max-width: 500px;
     margin-top: 50px;
     margin-left: 5%;
     padding: 5px;
@@ -117,73 +119,80 @@ ol li {
     border-style: solid;
     border-color: darkorange;
     border-width: thick;
-    float: left;
-
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 350px;
 }
 
 #loda4 {
-    max-width: 350px;
+    max-width: 500px;
     min-width: 350px;
     margin-top: 50px;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
     background-color: #0f8433;
     overflow: hidden;
     border-style: solid;
     border-color: darkorange;
     border-width: thick;
-    float: left;
+    float: none;
 }
 
 #programloda1 {
-    max-width: 350px;
+    max-width: 500px;
     min-width: 350px;
     margin-top: 50px;
-    margin-left: 5%;
+
     padding: 5px;
     background-color: #0f8433;
     overflow: hidden;
     border-style: solid;
     border-color: darkorange;
     border-width: thick;
-    float: left;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 #programloda2 {
-    max-width: 350px;
+    max-width: 500px;
     min-width: 350px;
     margin-top: 50px;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
     background-color: #0f8433;
     overflow: hidden;
     border-style: solid;
     border-color: darkorange;
     border-width: thick;
-    float: left;
+    float: none;
 
 }
 
 #programloda3 {
-    max-width: 350px;
+    max-width: 500px;
     min-width: 350px;
     margin-top: 50px;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
     background-color: #0f8433;
     overflow: hidden;
     border-style: solid;
     border-color: darkorange;
     border-width: thick;
-    float: left;
+    float: none;
 
 }
 
 #idrottsloda {
     max-width: 700px;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     padding: 5px;
     background-color: #0f8433;
@@ -191,7 +200,7 @@ ol li {
     border-style: solid;
     border-color: darkorange;
     border-width: thick;
-    float: left;
+    float: none;
 }
 
 .ansiktsloda {
@@ -280,6 +289,7 @@ ol li {
 
 
 @media screen and (max-width: 700px)  {
+
     #idrottsloda {
         max-width: 700px;
         margin-top: 50px;
@@ -338,6 +348,7 @@ h3 {
         margin-left: auto;
         margin-right: auto;
         float: none;
+        max-width: 700px;
 
     }
 
@@ -345,14 +356,14 @@ h3 {
         margin-left: auto;
         margin-right: auto;
         float: none;
-
+        max-width: 700px;
     }
 
     #programloda3 {
         margin-left: auto;
         margin-right: auto;
         float: none;
-
+        max-width: 700px;
     }
 
  #idrottsloda {
@@ -366,18 +377,22 @@ h3 {
           margin-left: auto;
           margin-right: auto;
           float: none;
-
+        max-width: 700px;
       }
     #loda3 {
         margin-left: auto;
         margin-right: auto;
         float: none;
+        max-width: 700px;
+
 
     }
     #loda4 {
         margin-left: auto;
         margin-right: auto;
         float: none;
+        max-width: 700px;
+
 
     }
 
@@ -385,5 +400,21 @@ h3 {
      margin-right: auto;
      margin-left: auto;
      float: none;
+     max-width: 700px;
  }
+    a {
+        font-size: 1.5em;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p {
+        text-align: center;
+        padding: 15px;
+        font-size: 1.8em;
+        }
+    .personalbilder {
+        margin-left: 43%;
+    }
 }
